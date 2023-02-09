@@ -1,0 +1,15 @@
+[package]
+name = "epitome"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "epitome_impl"
+crate-type = ["staticlib"]
+
+[build-dependencies]
+cbindgen = "0.24.3"
+cc = "1.0.79"
+
+[dependencies]
+babeltrace2_plugin = { path = "../babeltrace2_plugin" }
