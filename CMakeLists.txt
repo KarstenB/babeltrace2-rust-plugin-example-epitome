@@ -1,3 +1,5 @@
+# Copyright 2023 - 2023, Karsten Becker and the rust babeltrace2-plugin contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
 cmake_minimum_required(VERSION 3.25)
 
 # This is your project statement. You should always list languages;
